@@ -17,4 +17,29 @@
       <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="WRProyectoCompletoAPI\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="WRProyectoCompletoAPI\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="WRProyectoCompletoAPI\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="WRProyectoCompletoAPI\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="WRProyectoCompletoAPI\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="WRProyectoCompletoAPI\appsettings.json" />
+      <_ContentIncludedByDefault Remove="WRProyectoCompletoAPI\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="WRProyectoCompletoAPI\obj\project.packagespec.json" />
+      <_ContentIncludedByDefault Remove="WRProyectoCompletoAPI\obj\WRProyectoCompletoAPI.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="WRProyectoCompletoAPI\Properties\launchSettings.json" />
+    </ItemGroup>
+
 </Project>
