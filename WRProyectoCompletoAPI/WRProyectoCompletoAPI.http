@@ -1,0 +1,6 @@
+@WRProyectoCompletoAPI_HostAddress = http://localhost:5008
+
+GET {{WRProyectoCompletoAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
