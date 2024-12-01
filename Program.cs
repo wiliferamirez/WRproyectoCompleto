@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using WRproyectoCompleto.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<WRproyectoCompletoContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("WRproyectoCompletoContext") ?? throw new InvalidOperationException("Connection string 'WRproyectoCompletoContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
