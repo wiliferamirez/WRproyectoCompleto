@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using WRproyectoCompleto.Data;
 using Microsoft.Extensions.DependencyInjection;
 using WRproyectoCompleto.Data;
 var builder = WebApplication.CreateBuilder(args);

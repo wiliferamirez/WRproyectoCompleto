@@ -15,5 +15,6 @@ namespace WRproyectoCompleto.Data
         }
 
         public DbSet<WRproyectoCompleto.Models.WREstudiante> WREstudiante { get; set; } = default!;
+
     }
 }

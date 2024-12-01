@@ -1,4 +1,4 @@
-namespace WRproyectoCompleto.Models;
+namespace WRproyectoCompletoAPI.Models;
 using System.ComponentModel.DataAnnotations;
 
 
